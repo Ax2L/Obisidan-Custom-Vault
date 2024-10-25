@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "906d378d37b56692",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "9ae49ef2165eb40c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-10-22 11.51.26.excalidraw.md"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "51dc1e29abea019d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "909bc42cc033c5e8",
             "type": "leaf",
             "state": {
@@ -137,7 +101,7 @@
       "ai_llm:Local LLM Chat": false
     }
   },
-  "active": "906d378d37b56692",
+  "active": "909bc42cc033c5e8",
   "lastOpenFiles": [
     "Test.md",
     "SAP/SHM/hwmon/docs/obsidian/Handover SHM - CC.canvas",
