@@ -1,0 +1,70 @@
+{
+  "bookmarks": [
+    {
+      "id": "1860029776",
+      "name": "MainV2 | Syncthing",
+      "url": "http://localhost:8384",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1708210686707,
+      "modified": 1708210686707
+    },
+    {
+      "id": "1442105067",
+      "name": "cronjob each 10min - Google Search",
+      "url": "https://www.google.com/search?q=cronjob%20each%2010min",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1703194252894,
+      "modified": 1703194252894
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    },
+    {
+      "value": "Computer",
+      "text": "Computer",
+      "label": "Computer",
+      "children": [
+        {
+          "value": "Test",
+          "text": "Test",
+          "label": "Test"
+        },
+        {
+          "value": "xgpt.one",
+          "text": "xgpt.one",
+          "label": "xgpt.one"
+        }
+      ]
+    },
+    {
+      "value": "obsidian",
+      "text": "obsidian",
+      "label": "obsidian",
+      "children": [
+        {
+          "value": "surfing",
+          "text": "surfing",
+          "label": "surfing"
+        },
+        {
+          "value": "dataview",
+          "text": "dataview",
+          "label": "dataview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-shellcommands:shell-command-8qujrrvo23",
+      "icon": "fast-forward",
+      "name": "Shell commands: Execute: LLMxAWQ",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "workspace:copy-path",
+      "icon": "lucide-copy",
+      "name": "Copy file path",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-2hxkgl7ab5",
+      "icon": "rocket",
+      "name": "Shell commands: Execute: AIxCanvas",
+      "mode": "any"
+    },
+    {
+      "id": "cmdr:macro-0",
+      "icon": "align-horizontal-justify-end",
+      "name": "Commander: copyPath-AIxCanvas",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-8qujrrvo23",
+      "icon": "fast-forward",
+      "name": "Shell commands: Execute: LLMxAWQ",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-style-settings:style-settings-class-toggle-Blue-Topaz-Codebox-Highlight-whole-code-wrap",
+      "icon": "wrap-text",
+      "name": "Style Settings: Toggle Code wrap (Reading mode)",
+      "mode": "any"
+    },
+    {
+      "id": "semantic-canvas:set-canvas-to-note-properties",
+      "icon": "bluetooth-connected",
+      "name": "Semantic Canvas: Overwrite note properties based on canvas",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "workspace:copy-path"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-shellcommands:shell-command-2hxkgl7ab5"
+        }
+      ],
+      "name": "copyPath-AIxCanvas",
+      "icon": "copy",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "editing-toolbar",
+      "obsidian-markmind",
+      "word-count",
+      "editor-status",
+      "properties",
+      "backlink",
+      "hide-folders",
+      "personal-assistant",
+      "obsidian-plugin-groups",
+      "obsidian-textgenerator-plugin",
+      "obsidian-textgenerator-plugin",
+      "obsidian-textgenerator-plugin",
+      "obsidian-textgenerator-plugin",
+      "theme-picker",
+      "colored-text",
+      "colored-text",
+      "colored-text",
+      "colored-text",
+      "colored-text"
+    ],
+    "leftRibbon": []
+  },
+  "spacing": "8",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

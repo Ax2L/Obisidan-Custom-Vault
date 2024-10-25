@@ -1,0 +1,23 @@
+{
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "tabSize": 5,
+  "livePreview": false,
+  "showInlineTitle": true,
+  "focusNewTab": true,
+  "readableLineLength": false,
+  "propertiesInDocument": "hidden",
+  "smartIndentList": true,
+  "vimMode": false,
+  "newLinkFormat": "absolute",
+  "userIgnoreFilters": [
+    "/AI/apps"
+  ],
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "strictLineBreaks": false,
+  "defaultViewMode": "source"
+}

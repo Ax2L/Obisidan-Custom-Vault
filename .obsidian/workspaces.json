@@ -1,0 +1,150 @@
+{
+  "workspaces": {
+    "Good": {
+      "main": {
+        "id": "7f4853ad95480165",
+        "type": "split",
+        "children": [
+          {
+            "id": "dabfe22bda08c6a1",
+            "type": "tabs",
+            "dimension": 71.57001414427157,
+            "children": [
+              {
+                "id": "d2d5c44040488191",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Workspace/Server/LLM-Hector/LLM-Plan.canvas",
+                    "viewState": {
+                      "x": -2081.5,
+                      "y": -34060.605078125,
+                      "zoom": -4
+                    }
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          },
+          {
+            "id": "4e994bcc169e1d4b",
+            "type": "tabs",
+            "dimension": 28.42998585572843,
+            "children": [
+              {
+                "id": "ee79e7bb89e56195",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Workspace/Main Bridge.canvas",
+                    "viewState": {
+                      "x": -460,
+                      "y": -120,
+                      "zoom": -1.4303244771800385
+                    }
+                  }
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "48392abc746a467e",
+        "type": "split",
+        "children": [
+          {
+            "id": "6a57f09f3b78d1ac",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6361fa7af547d8d3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 414
+      },
+      "right": {
+        "id": "1aa27cc0a7682c28",
+        "type": "split",
+        "children": [
+          {
+            "id": "0f139199d84cecc8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fd67c611b8fb2cd6",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "1fb955439fac4101",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Promptbase/genDocs/README summarising..md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 307,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "command-palette:Open command palette": false,
+          "obsidian-custom-frames:Open ComfySecond": true,
+          "obsidian-custom-frames:Open ComfyMain": true,
+          "obsidian-custom-frames:Open Syncthing": true,
+          "obsidian-custom-frames:Open Civit Manager": true,
+          "cannoli:Start/stop cannoli": true,
+          "terminal:Open terminal": true,
+          "switcher:Open quick switcher": true,
+          "canvas:Create new canvas": true,
+          "workspaces:Manage workspace layouts": true,
+          "hide-folders:Show hidden folders": false,
+          "syncthing-integration:Open Syncthing conflict manager modal": true,
+          "code-files:Create Code File": true,
+          "tab-selector:Open tab selector": false,
+          "obsidian-autoscroll:Auto Scroller (speed 0.2)": false
+        }
+      },
+      "active": "d2d5c44040488191",
+      "mtime": "2024-03-20T03:57:42+01:00"
+    }
+  },
+  "active": "Good"
+}

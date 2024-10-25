@@ -1,0 +1,25 @@
+{
+  "URICommands": [
+    {
+      "name": "filePath",
+      "id": "filepath1711252906898",
+      "URITemplate": "{{filePath}}",
+      "encode": false,
+      "icon": "anchor"
+    },
+    {
+      "name": "fileText",
+      "id": "filetext1711253088004",
+      "URITemplate": "{{fileText}}",
+      "encode": false,
+      "icon": "align-justify"
+    },
+    {
+      "name": "readFile",
+      "id": "readfile1711308092507",
+      "URITemplate": "{{filePath}}, {{fileText}}",
+      "encode": true
+    }
+  ],
+  "notification": true
+}

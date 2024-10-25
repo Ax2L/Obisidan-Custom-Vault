@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "7f4853ad95480165",
+    "type": "split",
+    "children": [
+      {
+        "id": "400e99dbdffc2df4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "906d378d37b56692",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "QuickStart.canvas",
+                "viewState": {
+                  "x": 11565.304128435804,
+                  "y": 13229.352676689761,
+                  "zoom": -1.2691080729166666
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "QuickStart"
+            }
+          },
+          {
+            "id": "9ae49ef2165eb40c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-10-22 11.51.26.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-22 11.51.26.excalidraw"
+            }
+          },
+          {
+            "id": "51dc1e29abea019d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SAP/SHM/hwmon/docs/obsidian/Handover SHM - CC.canvas",
+                "viewState": {
+                  "x": 12385.233507500016,
+                  "y": -4166.09346694073,
+                  "zoom": -1.6133709350725014
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-layout-dashboard",
+              "title": "Handover SHM - CC"
+            }
+          },
+          {
+            "id": "909bc42cc033c5e8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SAP/SHM/hwmon/docs/obsidian/subCanvas/syncJenkins.canvas",
+                "viewState": {
+                  "x": -131.30580027571926,
+                  "y": 1040.8676658316149,
+                  "zoom": -0.6096560005124589
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "syncJenkins"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48392abc746a467e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a57f09f3b78d1ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6361fa7af547d8d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 412
+  },
+  "right": {
+    "id": "1aa27cc0a7682c28",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f139199d84cecc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd67c611b8fb2cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 579,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "github-sync:Sync with Remote": false,
+      "command-palette:Open command palette": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "workspaces:Manage workspace layouts": true,
+      "hide-folders:Show hidden folders": false,
+      "code-files:Create Code File": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "advanced-canvas-filter:Advanced Canvas Filter": false,
+      "card-note:Search Notes": false,
+      "cannoli:Start/stop cannoli": false,
+      "local-llm-helper:LLM Context": false,
+      "obsidian-file-cleaner:Clean files": false,
+      "file-cleaner-redux:Clean files": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "906d378d37b56692",
+  "lastOpenFiles": [
+    "Test.md",
+    "SAP/SHM/hwmon/docs/obsidian/Handover SHM - CC.canvas",
+    "SAP/SHM/hwmon/docs/obsidian/subCanvas/syncJenkins.canvas",
+    "SAP/SHM/hwmon/test.sh",
+    "QuickStart.canvas",
+    "Excalidraw/Drawing 2024-10-22 11.51.26.excalidraw.md",
+    "SAP/test/requirements.txt",
+    "SAP/test/input.txt",
+    "SAP/test/README.md",
+    "SAP/test/app.py",
+    "SAP/test",
+    "SAP/SHM/consolemgmt/ansible/roles/run_discovery/files/config/lobs/tihanaqa.json",
+    "SAP/SHM/consolemgmt/ansible/roles/run_discovery/files/config/lobs/tdc.json",
+    "SAP/SHM/consolemgmt/ansible/roles/run_discovery/files/config/lobs/sts.json",
+    "SAP/SHM/consolemgmt/ansible/roles/run_discovery/files/config/lobs/labs.json",
+    "SAP/SHM/consolemgmt/ansible/roles/run_discovery/files/config/lobs/im.json",
+    "SAP/SHM/consolemgmt/notes.md",
+    "SAP/SHM/consolemgmt/docs/image.png",
+    "SAP/SHM/consolemgmt/docs/agents.md",
+    "SAP/SHM/consolemgmt/README.md",
+    "SAP/SHM/consolemgmt_OLD/README.md",
+    "SAP/SHM/consolemgmt-development 3/notes.md",
+    "SAP/SHM/consolemgmt-development 3/README.md",
+    "SAP/SHM/consolemgmt-development 3/docs/image.png",
+    "SAP/SHM/consolemgmt-development 3/docs/agents.md",
+    "SAP/jira-llm-assistant/tmp/Taipy-Cheat-Sheets-main/src/pages/root.md",
+    "SAP/jira-llm-assistant/tmp/Taipy-Cheat-Sheets-main/src/pages/getting_started.md",
+    "SAP/jira-llm-assistant/tmp/Taipy-Cheat-Sheets-main/README.md",
+    "SAP/jira-llm-assistant/tmp/Jira LLM Canvas.canvas",
+    "SAP/jira-llm-assistant/tmp/demo-chatbot-develop/media/rifle_conv.png",
+    "SAP/jira-llm-assistant/tmp/demo-chatbot-develop/media/round_conv.png",
+    "SAP/jira-llm-assistant/tmp/demo-chatbot-develop/media/docs.png",
+    "SAP/jira-llm-assistant/tmp/demo-chatbot-develop/README.md",
+    "SAP/jira-llm-assistant/tmp/Pasted image 20240909020409.png",
+    "SAP/jira-llm-assistant/tmp/Infos/ollamaLLM.md",
+    "SAP/jira-llm-assistant/tmp/Infos/lanchain-chains.md",
+    "SAP/jira-llm-assistant/tmp/Infos/TextGenerator WebUI API.md",
+    "SAP/jira-llm-assistant/tmp/Infos/Taipy visual elements.md",
+    "SAP/jira-llm-assistant/tmp/Infos/RunnableSequence.md",
+    "SAP/jira-llm-assistant/tmp/Infos/LLMChains.md",
+    "SAP/jira-llm-assistant/tmp/Infos/LLM download list.md",
+    "SAP/jira-llm-assistant/tmp/Infos/LLM Chains using Runnables.md",
+    "SAP/jira-llm-assistant/tmp/Infos/How To Use the JIRA API.md",
+    "SAP/jira-llm-assistant/tmp/Pasted image 20240910030932.png",
+    "SAP/jira-llm-assistant/tmp/Taipy status.md",
+    "SAP/jira-llm-assistant/tmp/images/Pasted image 20240907144547.png",
+    "SAP/jira-llm-assistant/tmp/ollama-api.md",
+    "SAP/jira-llm-assistant/tmp/taipy/Scalar.md",
+    "SAP/jira-llm-assistant/tmp/taipy/examples/controls/alice-avatar.png",
+    "SAP/jira-llm-assistant/tmp/taipy/examples/controls/charles-avatar.png",
+    "SAP/Informations/Openstack/Infos.canvas",
+    "SAP/SHM/tmp/canvas.canvas",
+    "SAP/SHM/tmp/Untitled.canvas",
+    "SAP/SHM/tmp/Untitled 2.canvas",
+    "SAP/SHM/tmp/Untitled 1.canvas",
+    "SAP/SHM/tmp/Untitled 1 1.canvas"
+  ]
+}

@@ -1,0 +1,151 @@
+
+/*
+ * Folders
+/*
+/* https://forum.obsidian.md/t/iterative-rainbow-folder-colors-css/21066 */
+/* thanks to Evelf */
+
+.tree-item-children {
+    --nav-indentation-guide-width: 3px;
+    border-bottom-left-radius: 5px;
+    color: #123456;
+}
+
+.mod-root>.nav-folder-children>.nav-folder>.tree-item-self,
+.mod-root>.nav-folder-children>.is-collapsed .collapse-icon svg.svg-icon,
+.mod-root .nav-folder .collapse-icon svg.svg-icon {
+    color: #000;
+    text-align: center;
+    box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    font-family: 'Bungee Inline', sans-serif;
+    filter: brightness(85%);
+    font-size: medium;
+    text-shadow: #000;
+    text-emphasis-color: #58121b;
+    font-style: unset;
+    /* Reduces the brightness to fit with the overall theme */
+
+}
+
+.mod-root .nav-folder .nav-folder-children .collapse-icon svg.svg-icon {
+    color: var(--nav-collapse-icon-color);
+    font-family: 'Bungee Inline', sans-serif;
+    filter: brightness(80%);
+    /* Reduces the brightness to fit with the overall theme */
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+2)>.tree-item-self {
+    background-color: var(--color-red);
+    background: linear-gradient(to right, transparent 0%, #bf616a 15%, transparent);
+    -webkit-text-size-adjust: auto;
+    color: #000 !important;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+2) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-red);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+3)>.tree-item-self {
+    background-color: var(--color-orange);
+    background: linear-gradient(to right, #000000, #bf7961 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+3) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-orange);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+4)>.tree-item-self {
+    background-color: var(--color-yellow-light);
+    background: linear-gradient(to right, transparent, #ebcb8b 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+4) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-yellow-light);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+5)>.tree-item-self {
+    background-color: var(--color-green);
+    background: linear-gradient(to right, transparent, #e4b860 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+5) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-green);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+6)>.tree-item-self {
+    background-color: var(--color-sea-green);
+    background: linear-gradient(to right, transparent, #65B676 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+6) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-sea-green);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+7)>.tree-item-self {
+    background-color: var(--color-cyan);
+    background: linear-gradient(to right, transparent, #602E91 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+7) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-cyan);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+8)>.tree-item-self {
+    background-color: var(--color-frost);
+    background: linear-gradient(to right, transparent, #8fbcbb 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+8) .tree-item-children {
+    border-left: 3px solid var(--color-frost);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+9)>.tree-item-self {
+    background-color: var(--color-blue);
+    background: linear-gradient(to right, transparent, #6B91BD 15%, transparent);
+    color: #000 impr !important;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+9) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-blue);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+10)>.tree-item-self {
+    background-color: var(--color-purple);
+    background: linear-gradient(to right, transparent, #fc689c 15%, transparent);
+    color: #000;
+    -webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+10) .tree-item-children {
+    --nav-indentation-guide-color: var(--color-purple);
+
+}

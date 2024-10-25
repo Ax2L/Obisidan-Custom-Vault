@@ -1,0 +1,9 @@
+{
+  "useSuggestions": true,
+  "useAutoLink": true,
+  "searchFileContent": true,
+  "subFolderDepth": -1,
+  "realTimeLinking": true,
+  "autoRefreshLinks": "always",
+  "lemmatizeTerms": true
+}

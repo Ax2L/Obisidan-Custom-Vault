@@ -1,0 +1,20 @@
+{
+  "mySetting": "default",
+  "checkboxGroups": {
+    "Group 1": [
+      "#tag1",
+      "#tag2",
+      "#tag3"
+    ],
+    "Group 2": [
+      "#tag4",
+      "#tag5",
+      "#tag6"
+    ]
+  },
+  "checkboxStates": {},
+  "jsonInput": "{\"exampe group\": [\"#example_tag\"]}",
+  "addOtherTagsGroup": true,
+  "HidenOpacity": "0.5",
+  "FilterMode": "All Tags Inclusion"
+}

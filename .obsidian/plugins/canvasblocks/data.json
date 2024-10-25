@@ -1,0 +1,5 @@
+{
+  "dataFolder": "./Assets/CanvasBlocks",
+  "workflowScriptFolder": "",
+  "pythonPath": "conda run python"
+}

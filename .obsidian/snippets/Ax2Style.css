@@ -1,0 +1,705 @@
+/*================================================*/
+/* Root Colors
+/*================================================*/
+:root {
+	--800: #08090e;
+	--200-RGB: 8, 9, 14;
+	--700: #17181e;
+	--700-RGB: 23, 24, 30;
+	--600: #292a2f;
+	--400-RGB: 41, 42, 47;
+	--500: #4f5053;
+	--500-RGB: 79, 80, 83;
+	--400: #68696c;
+	--400-RGB: 104, 105, 108;
+	--300: #818184;
+	--300-RGB: 129, 129, 132;
+	--200: #e1e2e9;
+	--200-RGB: 225, 226, 233;
+	--100: #f1f2f5;
+	--100-RGB: 241, 242, 245;
+	--000: #fbfcfc;
+	--000-RGB: 251, 252, 252;
+	--C001: #f18196;
+	--C001-RGB: 241, 129, 150;
+	--C002: #f19a81;
+	--C002-RGB: 241, 154, 129;
+	--C003: #ebcb8b;
+	--C003-RGB: 241, 201, 129;
+	--C004: #e3eb8b;
+	--C004-RGB: 227, 235, 139;
+	--C005: #bcf181;
+	--C005-RGB: 188, 241, 129;
+	--C006: #8df181;
+	--C006-RGB: 141, 241, 129;
+	--C007: #81f1a4;
+	--C007-RGB: 129, 241, 164;
+	--C008: #8be3eb;
+	--C008-RGB: 139, 227, 235;
+	--C009: #ab8beb;
+	--C009-RGB: 171, 139, 235;
+	--C010: #ee81f1;
+	--C010-RGB: 238, 129, 241;
+	--C011: #f181c5;
+	--C011-RGB: 241, 129, 197;
+}
+
+/*================================================*/
+/* Both Theme
+/*================================================*/
+.theme-dark,
+.theme-light {
+	--text-on-accent: var(--100);
+	--tab-outline-width: 0px;
+	--radius-xl: 16px;
+	--h1-size: 1.8em;
+	--h2-size: 1.8em;
+	--h3-size: 1.8em;
+	--h4-size: 1.8em;
+	--h5-size: 1.8em;
+	--h6-size: 1.8em;
+	--hr-thickness: 3px;
+	--file-line-width: 960px;
+	--ribbon-width: 48px;
+	--ribbon-padding: 24px 0px;
+	--callout-title-padding: 4px 12px;
+	--callout-padding: 0;
+	--link-decoration-hover: none;
+	--link-decoration: none;
+	--divider-width: 4px;
+	--divider-width-hover: 4px;
+	--ribbon-padding: 16px 0 0px 0;
+	--tab-stacked-pane-width: 100px;
+	--tab-radius-active: 0 0 0 0;
+	--checklist-done-decoration: none;
+	--tag-border-width: 1px;
+	--tag-border-color: transparent;
+	--tag-padding-x: 0.56em;
+	--tag-padding-y: 0.16em;
+	--tag-radius: var(--radius-xl);
+	--callout-radius: var(--radius-m);
+	--code-radius: var(--radius-m);
+	--font-use-default: var(--default-font);
+	--font-size-use-default: var(--editor-font-size);
+	--indent-use-default: 3.5ch;
+	--vicious-indent-font-family: var(--font-use-default);
+	--vicious-indent-font-size: var(--font-size-use-default);
+	--vicious-indent-width: 4.2ch;
+	--vicious-left-offset: 2ch;
+	--vicious-line-width: 3px;
+	--vicious-color-count: 11;
+	--vicious-indent-11: var(--C011);
+	--vicious-indent-10: var(--C010);
+	--vicious-indent-9: var(--C009);
+	--vicious-indent-8: var(--C008);
+	--vicious-indent-7: var(--C007);
+	--vicious-indent-6: var(--C006);
+	--vicious-indent-5: var(--C005);
+	--vicious-indent-4: var(--C004);
+	--vicious-indent-3: var(--C003);
+	--vicious-indent-2: var(--C002);
+	--vicious-indent-1: var(--C001);
+	--link-color: var(--C001);
+	--link-unresolved-color: var(--C008);
+	--indentation-guide-width: 0px;
+	--vicious-indent-bg-size: calc(var(--vicious-color-count) * var(--vicious-indent-width)) 0px;
+	--vicious-indent-colorful-bg: linear-gradient(to right,
+			var(--vicious-indent-1) 0 var(--vicious-line-width),
+			transparent var(--vicious-line-width) calc(1 * var(--vicious-indent-width)),
+			var(--vicious-indent-2) calc(1 * var(--vicious-indent-width)) calc(1 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(1 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(2 * var(--vicious-indent-width)),
+			var(--vicious-indent-3) calc(2 * var(--vicious-indent-width)) calc(2 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(2 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(3 * var(--vicious-indent-width)),
+			var(--vicious-indent-4) calc(3 * var(--vicious-indent-width)) calc(3 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(3 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(4 * var(--vicious-indent-width)),
+			var(--vicious-indent-5) calc(4 * var(--vicious-indent-width)) calc(4 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(4 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(5 * var(--vicious-indent-width)),
+			var(--vicious-indent-6) calc(5 * var(--vicious-indent-width)) calc(5 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(5 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(6 * var(--vicious-indent-width)),
+			var(--vicious-indent-7) calc(6 * var(--vicious-indent-width)) calc(6 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(6 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(7 * var(--vicious-indent-width)),
+			var(--vicious-indent-8) calc(7 * var(--vicious-indent-width)) calc(7 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(7 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(8 * var(--vicious-indent-width)),
+			var(--vicious-indent-9) calc(8 * var(--vicious-indent-width)) calc(8 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(8 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(9 * var(--vicious-indent-width)),
+			var(--vicious-indent-10) calc(9 * var(--vicious-indent-width)) calc(9 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(9 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(10 * var(--vicious-indent-width)),
+			var(--vicious-indent-11) calc(10 * var(--vicious-indent-width)) calc(10 * var(--vicious-indent-width) + var(--vicious-line-width)),
+			transparent calc(7 * var(--vicious-indent-width) + var(--vicious-line-width)) calc(8 * var(--vicious-indent-width)));
+}
+
+/*================================================*/
+/* Vibrant Folders
+/*================================================*/
+
+body:not(.theme-light).vibrant-folders .nav-folder-children>.nav-folder,
+.vibrant-folders [data-type="bookmarks"] .tree-item {
+	--colorful: var(--100-RGB);
+	--text-color: var(--200)
+}
+
+body:not(.theme-light) .nav-folder-children>.nav-folder,
+[data-type="bookmarks"] .tree-item {
+	--text-color: var(--100)
+}
+
+body:not(.theme-dark) .nav-folder-children>.nav-folder,
+[data-type="bookmarks"] .tree-item {
+	--text-color: var(--200)
+}
+
+body:not(.theme-dark).vibrant-folders .nav-folder-children>.nav-folder,
+.vibrant-folders [data-type="bookmarks"] .tree-item {
+	--colorful: var(--200-RGB);
+	--text-color: var(--200)
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 2),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 2) {
+	--colorful: var(--C001-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 3),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 3) {
+	--colorful: var(--C002-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 4),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 4) {
+	--colorful: var(--C003-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 5),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 5) {
+	--colorful: var(--C004-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 6),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 6) {
+	--colorful: var(--C005-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 7),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 7) {
+	--colorful: var(--C006-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 8),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 8) {
+	--colorful: var(--C007-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 9),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 9) {
+	--colorful: var(--C008-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 10),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 10) {
+	--colorful: var(--C009-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 11),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 11) {
+	--colorful: var(--C010-RGB);
+}
+
+.nav-folder-children>.nav-folder:nth-child(11n + 12),
+[data-type="bookmarks"] .tree-item:nth-child(11n + 12) {
+	--colorful: var(--C011-RGB);
+}
+
+[data-type="bookmarks"] .tree-item {
+	transition: background-color 0.4s;
+	background-color: rgba(var(--colorful), 0.01);
+	border: 1px solid rgba(var(--colorful), 0);
+	border-radius: var(--radius-s);
+}
+
+.theme-dark .nav-folder.mod-root .nav-folder.nav-folder .nav-folder,
+[data-type="bookmarks"] .tree-item .tree-item {
+	--colorful: none;
+}
+
+.theme-light .nav-folder.mod-root .nav-folder.nav-folder .nav-folder,
+[data-type="bookmarks"] .tree-item .tree-item {
+	--colorful: none;
+}
+
+.theme-dark .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title,
+.theme-dark .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-file-title,
+.theme-dark .nav-folder.mod-root .collapse-icon svg.svg-icon,
+.theme-dark .workspace-leaf-content[data-type="file-explorer"] .tree-item-self .tree-item-icon {
+	color: rgba(var(--text-color));
+}
+
+.theme-light .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-title,
+.theme-light .nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-file-title,
+.theme-light .nav-folder.mod-root .collapse-icon svg.svg-icon,
+.theme-light .workspace-leaf-content[data-type="file-explorer"] .tree-item-self .tree-item-icon {
+	color: rgba(var(--400-RGB));
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-file {
+	background-color: rgb(var(--nav-color), 1);
+}
+
+.theme-dark .tree-item-children .nav-folder-children>.nav-file .nav-file-title[data-path]::before {
+	background-color: rgba(var(--800-RGB));
+}
+
+.theme-light .tree-item-children .nav-folder-children>.nav-file .nav-file-title[data-path]::before {
+	background-color: rgba(var(--400-RGB));
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-file {
+	border-radius: var(--radius-xl);
+}
+
+.is-mobile .nav-folder.mod-root>.nav-folder-children>.nav-file {
+	border-radius: var(--radius-m);
+
+}
+
+.is-mobile .workspace-drawer-header-name-text {
+	font-size: 90%;
+}
+
+.is-tablet .workspace-drawer-ribbon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.nav-file {
+	overflow-y: display;
+}
+
+.nav-folder.mod-root .nav-folder>.nav-folder-children {
+	padding: 0 0px 0 0px;
+}
+
+.nav-folder.mod-root>.nav-folder-children {
+	border-left: none;
+	margin-left: 0;
+	padding-left: 0;
+	gap: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.theme-dark .nav-folder.mod-root>.nav-folder-children>.nav-folder {
+	transition: background-color 0.4s;
+	background-color: rgba(var(--colorful), 0.05);
+	/**_BackGround_inside_box**/
+	border: 0px solid rgba(var(--colorful), 0);
+	border-radius: var(--radius-s);
+}
+
+.theme-light .nav-folder.mod-root>.nav-folder-children>.nav-folder {
+	transition: background-color 0.4s;
+	background-color: rgba(var(--colorful), 1);
+	border: 0px solid rgba(var(--colorful), 1);
+	border-radius: var(--radius-s);
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-folder .nav-folder-children {
+	border-color: rgba(var(--500-RGB), 1);
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-file>.nav-file-title,
+.nav-folder.mod-root>.nav-folder-children>.nav-file.has-focus>.nav-file-title {
+	margin-bottom: 0;
+}
+
+.workspace-leaf.mod-active .nav-folder.has-focus>.nav-file-title,
+.workspace-leaf.mod-active .nav-folder.has-focus>.nav-file-title:focus-within,
+.workspace-leaf.mod-active .nav-folder.has-focus>.nav-folder-title,
+.workspace-leaf.mod-active .nav-folder.has-focus>.nav-folder-title:focus-within {
+	box-shadow: none;
+}
+
+.theme-dark .nav-file-tag {
+	background-color: rgba(var(--800-RGB), 0);
+	border-radius: var(--radius-m);
+	color: var(--100);
+}
+
+.theme-light .nav-file-tag {
+	background-color: rgba(var(--800-RGB), 0.4);
+	border-radius: var(--radius-m);
+	color: var(--100);
+}
+
+.theme-dark .nav-folder.mod-root>.nav-folder-children>.nav-file>.tree-item-self.is-clickable.nav-file-title>.nav-file-tag {
+	color: var(--text-muted);
+}
+
+body:not(.is-grabbing) .tree-item-self.is-clickable:hover,
+.nav-file-title.is-active {
+	color: inherit;
+	background-color: transparent;
+	border-radius: inherit;
+}
+
+.nav-file-title-content,
+.nav-folder-title-content {
+	flex-grow: 1;
+}
+
+.nav-folder-title[data-count]::after {
+	background-color: currentColor;
+	width: 6px;
+	height: 6px;
+	padding: 0;
+	content: "";
+	margin: -1px 4px 0 0;
+	border-radius: var(--radius-xl);
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-file .nav-file-title:hover {
+	color: var(--text-muted);
+}
+
+.nav-folder.mod-root>.nav-folder-children>.nav-file .nav-file-title.is-active:hover {
+	color: var(--text-normal);
+}
+
+.workspace-leaf-content[data-type="bookmarks"] .tree-item-self {
+	color: var(--100) !important;
+}
+
+body:not(.is-grabbing) .tree-item-self.is-active:hover,
+.tree-item-self.is-active {
+	background: none;
+}
+
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item-self .tree-item-icon {
+	color: rgba(var(--100-RGB));
+}
+
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item-self .tree-item-icon {
+	color: rgba(var(--400-RGB));
+}
+
+.workspace-leaf-content[data-type="bookmarks"]>div.view-content>div {
+	gap: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*================================================*/
+/* Text Highlight
+/*================================================*/
+
+[data-task="0"],
+[data-task="1"],
+[data-task="2"],
+[data-task="3"],
+[data-task="4"],
+[data-task="5"],
+[data-task="6"],
+[data-task="7"],
+[data-task="8"],
+[data-task="9"],
+[data-task="§"] {
+	margin-inline-start: 0px;
+	padding: 0px 0px !important;
+	border-radius: var(--radius-m);
+	max-width: max-content;
+	color: var(--background-primary);
+	transition: background 0.4s;
+}
+
+[data-task="0"] .task-list-item-checkbox,
+[data-task="1"] .task-list-item-checkbox,
+[data-task="2"] .task-list-item-checkbox,
+[data-task="3"] .task-list-item-checkbox,
+[data-task="4"] .task-list-item-checkbox,
+[data-task="5"] .task-list-item-checkbox,
+[data-task="6"] .task-list-item-checkbox,
+[data-task="7"] .task-list-item-checkbox,
+[data-task="8"] .task-list-item-checkbox,
+[data-task="9"] .task-list-item-checkbox,
+[data-task="§"] .task-list-item-checkbox {
+	display: none;
+}
+
+[data-task="0"],
+[data-task="1"],
+[data-task="2"],
+[data-task="3"],
+[data-task="4"],
+[data-task="5"],
+[data-task="6"],
+[data-task="7"],
+[data-task="8"],
+[data-task="9"],
+[data-task="§"] {
+	text-indent: 0px !important;
+}
+
+.is-live-preview [data-task="0"].cm-active,
+.is-live-preview [data-task="1"].cm-active,
+.is-live-preview [data-task="2"].cm-active,
+.is-live-preview [data-task="3"].cm-active,
+.is-live-preview [data-task="4"].cm-active,
+.is-live-preview [data-task="5"].cm-active,
+.is-live-preview [data-task="6"].cm-active,
+.is-live-preview [data-task="7"].cm-active,
+.is-live-preview [data-task="8"].cm-active,
+.is-live-preview [data-task="9"].cm-active,
+.is-live-preview [data-task="§"].cm-active {
+	border-radius: var(--radius-xl);
+	border: none;
+	color: var(--text-normal);
+}
+
+.is-live-preview [data-task="0"]:not(.cm-active),
+.is-live-preview [data-task="1"]:not(.cm-active),
+.is-live-preview [data-task="2"]:not(.cm-active),
+.is-live-preview [data-task="3"]:not(.cm-active),
+.is-live-preview [data-task="4"]:not(.cm-active),
+.is-live-preview [data-task="5"]:not(.cm-active),
+.is-live-preview [data-task="6"]:not(.cm-active),
+.is-live-preview [data-task="7"]:not(.cm-active),
+.is-live-preview [data-task="8"]:not(.cm-active),
+.is-live-preview [data-task="9"]:not(.cm-active),
+.is-live-preview [data-task="§"]:not(.cm-active) {
+	max-width: 100%;
+}
+
+[data-task="0"] {
+	background-color: rgba(var(--C001-RGB), 0.1);
+}
+
+[data-task="1"] {
+	background-color: rgba(var(--C002-RGB), 0.1);
+}
+
+[data-task="2"] {
+	background-color: rgba(var(--C003-RGB), 0.1);
+}
+
+[data-task="3"] {
+	background-color: rgba(var(--C004-RGB), 0.1);
+}
+
+[data-task="4"] {
+	background-color: rgba(var(--C005-RGB), 0.1);
+}
+
+[data-task="5"] {
+	background-color: rgba(var(--C006-RGB), 0.1);
+}
+
+[data-task="6"] {
+	background-color: rgba(var(--C007-RGB), 0.1);
+}
+
+[data-task="7"] {
+	background-color: rgba(var(--C008-RGB), 0.1);
+}
+
+[data-task="8"] {
+	background-color: rgba(var(--C009-RGB), 0.1);
+}
+
+[data-task="9"] {
+	background-color: rgba(var(--C010-RGB), 0.1);
+}
+
+[data-task="§"] {
+	background-color: rgba(var(--C011-RGB), 0.1);
+}
+
+
+
+
+/*
+ * Folders
+/*
+/* https://forum.obsidian.md/t/iterative-rainbow-folder-colors-css/21066 */
+/* thanks to Evelf */
+
+.tree-item-children {
+	--nav-indentation-guide-width: 5px;
+	border-bottom-left-radius: 3px;
+}
+
+.mod-root>.nav-folder-children>.nav-folder>.tree-item-self,
+.mod-root>.nav-folder-children>.is-collapsed .collapse-icon svg.svg-icon,
+.mod-root .nav-folder .collapse-icon svg.svg-icon {
+	text-align: var(--vicious-left-offset);
+	box-shadow: 0px 4px 8px 2px rgba(0, 0, 1, 0.111);
+	font-family: 'Bungee Inline', sans-serif;
+	filter: brightness(60%);
+	/* Reduces the brightness to fit with the overall theme */
+
+}
+
+.mod-root .nav-folder .nav-folder-children .collapse-icon svg.svg-icon {
+	color: var(--nav-collapse-icon-color);
+	font-family: 'Bungee Inline', sans-serif;
+	/* Reduces the brightness to fit with the overall theme */
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+2)>.tree-item-self {
+	background-color: var(--C001);
+	background: linear-gradient(to right, var(--C001), #bf616a 15%, var(--C001)), 0.1;
+	-webkit-text-size-adjust: auto;
+  	color: #D1D195;
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+2) .tree-item-children {
+	--nav-indentation-guide-color: var(--C001);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+3)>.tree-item-self {
+	background-color: var(--C002);
+	background: linear-gradient(to right, var(--C002), var(--C002) 55%, var(--C002)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+3) .tree-item-children {
+	--nav-indentation-guide-color: var(--C002);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+4)>.tree-item-self {
+	background-color: var(--C003);
+	background: linear-gradient(to right, var(--C003), var(--C003)15%, var(--C003)), 0.1;
+	-webkit-text-size-adjust: auto;
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+4) .tree-item-children {
+	--nav-indentation-guide-color: var(--C003);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+5)>.tree-item-self {
+	background-color: var(--C004);
+	background: linear-gradient(to right, var(--C004), #e4b860 15%, var(--C004)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+5) .tree-item-children {
+	--nav-indentation-guide-color: var(--C004);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+6)>.tree-item-self {
+	background-color: var(--C005);
+	background: linear-gradient(to right, var(--C005), var(--C005) 15%, var(--C005)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+6) .tree-item-children {
+	--nav-indentation-guide-color: var(--C005);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+7)>.tree-item-self {
+	background-color: var(--C006);
+	background: linear-gradient(to right, var(--C006), var(--C006) 15%, var(--C006)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+7) .tree-item-children {
+	--nav-indentation-guide-color: var(--C006);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+8)>.tree-item-self {
+	background-color: var(--C007);
+	background: linear-gradient(to right, var(--C007), var(--C007) 15%, var(--C007)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+8) .tree-item-children {
+	border-left: 0px solid var(--C007);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+9)>.tree-item-self {
+	background-color: var(--C008);
+	background: linear-gradient(to right, var(--C008), var(--C008) 15%, var(--C008)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+9) .tree-item-children {
+	--nav-indentation-guide-color: var(--C008);
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+10)>.tree-item-self {
+	background-color: var(--C009);
+	background: linear-gradient(to right, var(--C009), var(--C009) 15%, var(--C009)), 0.1;
+	-webkit-text-size-adjust: auto;
+
+}
+
+.mod-root>.nav-folder-children>.nav-folder:nth-child(9n+10) .tree-item-children {
+	--nav-indentation-guide-color: var(--C009);
+
+}
+
+
+
+/* SECTION ------------------------------- Dropdown List Indicators START ------------------------------- */
+/* DONE */
+/* NOTE Hide Bullet List Dropdown's Extra 2nd Indicator When Hovered*/
+.list-collapse-indicator:hover ~ .list-bullet:after, .cm-fold-indicator:hover ~ .list-bullet:after, .list-collapse-indicator:hover ~ .cm-formatting-list .list-bullet:after, .cm-fold-indicator:hover ~ .cm-formatting-list .list-bullet:after, li.is-collapsed .list-bullet:after, .is-collapsed ~ .cm-formatting-list .list-bullet:after{
+    display: none;
+}
+
+/* NOTE Show Pointer When Hover List Dropdown */
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator,
+.list-collapse-indicator.collapse-indicator.collapse-icon,
+.heading-collapse-indicator.collapse-indicator.collapse-icon{
+    cursor: pointer;
+}
+
+/* NOTE Location Of Collapse Icon For Checkboxes In Preview Mode*/
+.task-list-item .collapse-icon:before{
+    margin-inline-start: 0px;
+}
+
+/* NOTE Location Of Collapse Icon For Checkboxes In Edit Mode*/
+.markdown-source-view .collapse-indicator.collapse-icon svg{
+    margin-inline-start: 0px;
+}
+/* SECTION ------------------------------- Dropdown List Indicators END ------------------------------- */
+/* SECTION ------------------------------- Links AND Tags START ------------------------------- */
+/* TODO Finish Commenting This Section */
+:not(h1, h2, h3, h4, h5, h6) > .internal-link, .markdown-source-view.is-live-preview span.cm-hmd-internal-link:not(.cm-header){
+    display: inline-block;
+    border: 1px solid var(--text-a);
+    border-radius: var(--custom-link-radius);
+    padding: 0px 0px;
+    font-size: .95em;
+    vertical-align: sub;
+    vertical-align: text-top;
+    line-height: 1.2;
+    /* line-height: 1.2; */
+    height: 21px;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: var(--custom-link-background-color);
+    box-shadow: var(--custom-link-box-shadow);
+}
+
+/* NOTE allow internal links inside tables to span their full width */
+table :not(h1, h2, h3, h4, h5, h6) > .internal-link, .markdown-source-view.is-live-preview table span.cm-hmd-internal-link:not(.cm-header){
+    max-width: 100%;
+}

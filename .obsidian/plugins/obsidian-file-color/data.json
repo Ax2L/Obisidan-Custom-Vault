@@ -1,0 +1,137 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "pyUVrHHnSXx3VxbnIBIDW",
+      "name": "Apps",
+      "value": "#ff4b40"
+    },
+    {
+      "id": "ZvP_mu5zzGKeffsFTCmO3",
+      "name": "Configs",
+      "value": "#ff9808"
+    },
+    {
+      "id": "tAUoarmTsOqDXSKawTITV",
+      "name": "Docs",
+      "value": "#ffd712"
+    },
+    {
+      "id": "MT91T_0OgNn5jWZsZXd4K",
+      "name": "Helper",
+      "value": "#38d851"
+    },
+    {
+      "id": "aXyWoxAfHK6wH7oPSI0SV",
+      "name": "Code",
+      "value": "#5fcafa"
+    },
+    {
+      "id": "B-6T_qY-PoN_zHvw48raS",
+      "name": "tmp",
+      "value": "#0881ff"
+    },
+    {
+      "id": "SpdvoMmeJJZ7CWeE4FGdH",
+      "name": "obsidian",
+      "value": "#6361e7"
+    },
+    {
+      "id": "gB65om-M7N4bypHkWv96O",
+      "name": "text",
+      "value": "#b257df"
+    },
+    {
+      "id": "VSLtjFYshdLAh8HrOCAgK",
+      "name": "other",
+      "value": "#ff345a"
+    },
+    {
+      "id": "AVMdMFEK_nl89jarYiSRK",
+      "name": "old",
+      "value": "#4f8cf8"
+    },
+    {
+      "id": "PPT2OW-gUMKiAJGkI2bYm",
+      "name": "new",
+      "value": "#14b89c"
+    },
+    {
+      "id": "ENybdkEn_6TSQ4Blh_riG",
+      "name": "unsorted",
+      "value": "#8c78f0"
+    },
+    {
+      "id": "zRgl2x7T0eNEdoaJ_ltuM",
+      "name": "important",
+      "value": "#d81a60"
+    },
+    {
+      "id": "pu9y5Ulpkp1l2UaKLk-Kw",
+      "name": "check",
+      "value": "#ff6159"
+    },
+    {
+      "id": "t2FH5gZFguJn42ZFo0hdO",
+      "name": "later use",
+      "value": "#fa8d28"
+    },
+    {
+      "id": "CXy8y8IZ72LIDk2wA293V",
+      "name": "always needfull",
+      "value": "#347835"
+    },
+    {
+      "id": "sbLnLFqLmOGsRqNb8PGex",
+      "name": "Mighty Code",
+      "value": "#17b0e3"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "AI",
+      "color": "pyUVrHHnSXx3VxbnIBIDW"
+    },
+    {
+      "path": "Assests",
+      "color": "ZvP_mu5zzGKeffsFTCmO3"
+    },
+    {
+      "path": "Code",
+      "color": "tAUoarmTsOqDXSKawTITV"
+    },
+    {
+      "path": "Docs",
+      "color": "MT91T_0OgNn5jWZsZXd4K"
+    },
+    {
+      "path": "Helper",
+      "color": "aXyWoxAfHK6wH7oPSI0SV"
+    },
+    {
+      "path": "Private",
+      "color": "B-6T_qY-PoN_zHvw48raS"
+    },
+    {
+      "path": "Projects",
+      "color": "SpdvoMmeJJZ7CWeE4FGdH"
+    },
+    {
+      "path": "SAP",
+      "color": "gB65om-M7N4bypHkWv96O"
+    },
+    {
+      "path": "Tools",
+      "color": "VSLtjFYshdLAh8HrOCAgK"
+    },
+    {
+      "path": "QuickStart.canvas",
+      "color": "PPT2OW-gUMKiAJGkI2bYm"
+    },
+    {
+      "path": "AI/Prompting",
+      "color": "MT91T_0OgNn5jWZsZXd4K"
+    }
+  ]
+}

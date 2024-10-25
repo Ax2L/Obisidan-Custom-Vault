@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1700722640664,
+      "path": "AI/Recources/AI-x²-Guide.canvas",
+      "title": "Ultimate x² AI-Guide "
+    },
+    {
+      "type": "file",
+      "ctime": 1701198279046,
+      "path": "AI/QuickStarter/TextGenerator.lnk",
+      "title": "Run TextGenerator"
+    },
+    {
+      "type": "file",
+      "ctime": 1701198235914,
+      "path": "AI/QuickStarter/StableDiff.lnk",
+      "title": "Run StableDiff"
+    }
+  ]
+}

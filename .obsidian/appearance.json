@@ -1,0 +1,16 @@
+{
+  "accentColor": "#ddc2ac",
+  "enabledCssSnippets": [
+    "theme_fodler_icons"
+  ],
+  "cssTheme": "Cyber GlowX",
+  "translucency": false,
+  "nativeMenus": false,
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": ""
+}

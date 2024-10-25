@@ -1,0 +1,12 @@
+{
+  "newFileLocation": 1,
+  "customFileLocation": "",
+  "cardDefault": "cards",
+  "fileDefault": "files",
+  "urlDefault": "urls",
+  "groupDefault": "groups",
+  "useCards": false,
+  "useUrls": true,
+  "useFiles": true,
+  "useGroups": true
+}

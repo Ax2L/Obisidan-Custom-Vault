@@ -1,0 +1,16 @@
+{
+  "areFoldersHidden": true,
+  "matchCaseInsensitive": true,
+  "addHiddenFoldersToObsidianIgnoreList": false,
+  "hideBottomStatusBarIndicatorText": false,
+  "enableCompatQuickExplorer": false,
+  "attachmentFolderNames": [
+    "attachments",
+    "__pycache__",
+    "Archiv",
+    "Spaces",
+    "Docz_liner",
+    "SAAWorka_liner",
+    "smart-chats"
+  ]
+}

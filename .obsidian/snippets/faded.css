@@ -1,0 +1,338 @@
+
+/* NOTE Stacked Panes Edge Active Title Text Style */
+.is-focused .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header.mod-active.is-active .workspace-tab-header-inner .workspace-tab-header-inner-title,
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header.mod-active.is-active .workspace-tab-header-inner .workspace-tab-header-inner-title
+{
+    color: var(--custom-white-100);
+}
+/* SECTION ------------------------------- Stacked Note Edge Title Styles END ------------------------------- */
+
+/* SECTION ------------------------------- Graph Settings START ------------------------------- */
+.graph-controls{
+    top:42px;
+}
+/* SECTION ------------------------------- Graph Settings END ------------------------------- */
+
+
+/* SECTION ------------------------------- Canvas Settings START ------------------------------- */
+.canvas-controls{
+    top:42px;
+    right: var(--size-4-4);
+}
+/* SECTION ------------------------------- Canvas Settings END ------------------------------- */
+
+
+
+.nav-folder.mod-root .nav-folder > .nav-folder-children{
+    border-left: none;
+}
+
+/* NOTE Folder Lines */
+.nav-folder-children .nav-folder,
+.nav-folder-children .nav-file {
+    margin: 0 -2px;
+    margin-right: 0px;
+    border-left: 2px solid var(--background-primary-active);
+    border-radius: 0px;
+    padding-left: 5px;
+    margin-left: -8px;
+}
+
+
+/* NOTE Folder Lines Hover */
+.nav-folder:hover,
+.nav-file:hover {
+    border-color: var(--custom-red-600);
+}
+
+/* NOTE Fix extra border added to bottom of Files Dock */
+.nav-folder.mod-root{
+    border-bottom: 0px;
+}
+
+/* NOTE Align Position Of Folder Collapse Icon*/
+.tree-item-self .tree-item-icon{
+    margin-left: -15px;
+}
+/* NOTE Align Position Of Folder Collapse Icon - for mobile*/
+.is-mobile .tree-item-self .tree-item-icon{
+    margin-left: -28px;
+}
+
+/* NOTE Positions Folders  */
+.mod-collapsible .tree-item-inner.nav-folder-title-content{
+    /*margin-left: 14px;*/
+    left: 16px;
+    position: relative;
+}
+
+/* NOTE Root Folder Highlight */
+/* .nav-files-container > .tree-item.nav-folder.mod-root > .tree-item-children.nav-folder-children > .tree-item.nav-folder > .tree-item-self.nav-folder-title:hover:before{
+    position: absolute;
+    content: "";
+    background-color: var(--nav-item-background-hover);
+    left: -13px;
+    top: 0px;
+    width: 13px;
+    height: 25px;
+} */
+
+/* NOTE Nested Folder Highlight */
+/* .nav-files-container .tree-item-self.nav-folder-title:hover:before{
+    position: absolute;
+    content: "";
+    background-color: var(--nav-item-background-hover);
+    left: -2px;
+    top: 0px;
+    width: 2px;
+    height: 25px;
+} */
+
+/* NOTE Style Applied To All Folders - AKA Remove defualt style since we nstead style via inner elements*/
+.nav-files-container > .tree-item.nav-folder.mod-root > .tree-item-children.nav-folder-children .tree-item-self.nav-folder-title:hover{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: transparent;
+}
+
+/* NOTE Style Applied To All Files - AKA Remove defualt style since we nstead style via inner elements*/
+.nav-files-container > .tree-item.nav-folder.mod-root > .tree-item-children.nav-folder-children .tree-item-self.nav-file-title:hover,
+.nav-files-container > .tree-item.nav-folder.mod-root > .tree-item-children.nav-folder-children .tree-item-self.nav-file-title.is-active{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: transparent;
+}
+
+/* NOTE Folder On Hover Highlight/Position */
+.tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover > .tree-item-inner.nav-folder-title-content {
+    color: var(--nav-item-color-hover);
+    background-color: var(--nav-item-background-hover);
+    font-weight: var(--nav-item-weight-hover);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 100%;
+    padding: 3px;
+    margin: -3px;   
+    position: relative;
+    cursor: pointer;
+}
+
+/* NOTE Folder On Hover Highlight/Position After Element*/
+.tree-item.nav-folder.mod-root .tree-item.nav-folder .tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover:after {
+    position: absolute;
+    content: "";
+    background-color: var(--nav-item-background-hover);
+    top: 1px;
+    width: 26px;
+    height: 23px;
+    cursor: pointer;
+}
+
+/* NOTE Root Folder Highlight 0 Levels Deep*/
+.tree-item.nav-folder.mod-root .tree-item.nav-folder .tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover:after {
+    left: -13px;
+}
+
+/* NOTE Nested Folder Highlight 1 Levels Deep */
+.tree-item.nav-folder.mod-root .tree-item.nav-folder .tree-item.nav-folder .tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover:after {
+    left: 2px;
+}
+
+/* NOTE Nested Folder Highlight 2 Levels Deep */
+.tree-item.nav-folder.mod-root .tree-item.nav-folder .tree-item.nav-folder .tree-item.nav-folder .tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover:after {
+    left: 16px;
+}
+
+/* NOTE Nested Folder Highlight 3 Levels Deep */
+.tree-item.nav-folder.mod-root .tree-item.nav-folder .tree-item.nav-folder .tree-item.nav-folder .tree-item.nav-folder .tree-item-self.is-clickable.mod-collapsible.nav-folder-title:hover:after {
+    left: 31px;
+}
+
+/* NOTE Style Of Files When Hovered */
+.tree-item-inner.nav-file-title-content:hover{
+    cursor: pointer;
+}
+
+/* .tree-item-self.is-clickable{
+    cursor: crosshair!important;
+} */
+
+/* ALERT TEST Cursor Style WIP */
+/* .tree-item.nav-file:hover  */
+.tree-item.nav-folder.mod-root .tree-item-self.is-clickable:hover
+{
+    cursor: pointer;
+}
+
+/* NOTE Style Of Files When Hovered Or Active */
+.tree-item-inner.nav-file-title-content:hover,
+.tree-item-self.is-clickable.nav-file-title.is-active .tree-item-inner.nav-file-title-content
+{
+    color: var(--nav-item-color-hover);
+    background-color: var(--nav-item-background-hover);
+    font-weight: var(--nav-item-weight-hover);
+    border-radius: 2px;
+    width: 100%;
+    padding: 3px;
+    margin: -3px;
+}
+
+/* NOTE Position Of Files In Nav */
+.tree-item-self.is-clickable.nav-file-title .tree-item-inner.nav-file-title-content{
+    padding-left: 11px;
+    margin-left: -11px;
+}
+
+/* SECTION ------------------------------- File Dock END ------------------------------- */
+/* SECTION ------------------------------- File Dock Ozan File Tree Alternative Plugin START -------------------------------*/
+.oz-folder-pane, .oz-file-list-pane{
+    --background-secondary-alt: var(--custom-background-tertiary);
+}
+
+/* TODO Want To Do More With This So Style Can Match Normal File Tree But Plugin HTML Makes This Not Possible ATM */
+/* NOTE Hide Defualt Folder And Page Icon */
+.file-tree-plugin-view .oz-folder-element .oz-icon-div svg,
+.file-tree-plugin-view .oz-nav-file-title .oz-nav-file-title-content svg{
+    /* display: none; */
+    position: absolute;
+    left: 0px;
+    opacity: 0!important;
+}
+
+/* NOTE Cursor On Folder Icon Hover */
+.file-tree-plugin-view .oz-folder-element .oz-icon-div svg{
+    cursor: cell;
+}
+
+/* NOTE Cursor On File/Folder Hover */
+.file-tree-plugin-view .oz-folder-element,
+.file-tree-plugin-view .oz-nav-file-title{
+    cursor: pointer;
+}
+
+/* NOTE Style Folder Icon And File Icon Style */
+.file-tree-plugin-view .oz-folder-element .oz-icon-div::before,
+.file-tree-plugin-view .oz-nav-file-title .oz-nav-file-title-content::before {
+    font-family: 'its';
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 13px;
+    font-weight: 10 !important;
+}
+
+/* NOTE Folder Icon Open*/
+.folderIcons .file-tree-plugin-view .oz-folder-element .oz-icon-div::before {
+    content: '\e801';
+    color: var(--custom-folder-icon-open);
+}
+
+/* NOTE Folder Icon Closed */
+/* TODO Plugin doesn't have html to support this */
+/* .nav-folder.is-collapsed .nav-folder-title-content:before {
+    color: var(--custom-folder-icon-closed);
+} */
+
+/* NOTE Folder Hover Color */
+.folderIcons .file-tree-plugin-view .oz-folder-element:hover .oz-icon-div::before{
+    color: var(--custom-folder-icon-hover);
+}
+
+/* NOTE File Icon */
+.fileIcons .file-tree-plugin-view .oz-nav-file-title .oz-nav-file-title-content::before {
+    content: '\e800';
+    text-align: center;
+    color: var(--custom-file-icon);
+}
+
+/* NOTE File Icon Hover */
+.fileIcons .file-tree-plugin-view .oz-nav-file-title:hover .oz-nav-file-title-content::before {
+    color: var(--custom-file-icon-hover);
+}
+
+/* NOTE Style All Floating Menus */
+.oz-folders-action-items, .oz-flex-container, .oz-file-tree-header, .oz-flex-container{
+    border-radius: 5px;
+    border: 1px solid var(--divider-color);
+}
+
+/* NOTE Style Folder Floating Menu */
+.oz-folders-action-items{
+    margin-left:-8px;
+    margin-right:3px;
+}
+
+/* NOTE Style Page Floating Menu*/
+.oz-file-tree-header-wrapper{
+    padding: 0px;
+    margin-left:-3px;
+}
+
+/* NOTE Folder File Divider */
+#file-tree-divider{
+    /* height: 1px; */
+    /* background-color:var(--divider-color); */
+    border-bottom:1px solid var(--divider-color);
+    opacity: 1;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+/* NOTE Folder File Divider Hover */
+#file-tree-divider:hover{
+    /* height: 1px; */
+    /* border-bottom:1px solid var(--interactive-accent); */
+    background-color:var(--interactive-accent);
+    opacity: 1;
+}
+/* SECTION ------------------------------- File Dock Ozan File Tree Alternative Plugin END ------------------------------- */
+
+
+/* SECTION ------------------------------- Dropdown List Indicators START ------------------------------- */
+/* DONE */
+/* NOTE Hide Bullet List Dropdown's Extra 2nd Indicator When Hovered*/
+.list-collapse-indicator:hover ~ .list-bullet:after, .cm-fold-indicator:hover ~ .list-bullet:after, .list-collapse-indicator:hover ~ .cm-formatting-list .list-bullet:after, .cm-fold-indicator:hover ~ .cm-formatting-list .list-bullet:after, li.is-collapsed .list-bullet:after, .is-collapsed ~ .cm-formatting-list .list-bullet:after{
+    display: none;
+}
+
+/* NOTE Show Pointer When Hover List Dropdown */
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator,
+.list-collapse-indicator.collapse-indicator.collapse-icon,
+.heading-collapse-indicator.collapse-indicator.collapse-icon{
+    cursor: pointer;
+}
+
+/* NOTE Location Of Collapse Icon For Checkboxes In Preview Mode*/
+.task-list-item .collapse-icon:before{
+    margin-inline-start: -14px;
+}
+
+/* NOTE Location Of Collapse Icon For Checkboxes In Edit Mode*/
+.markdown-source-view .collapse-indicator.collapse-icon svg{
+    margin-inline-start: -15px;
+}
+/* SECTION ------------------------------- Dropdown List Indicators END ------------------------------- */
+/* SECTION ------------------------------- Links AND Tags START ------------------------------- */
+/* TODO Finish Commenting This Section */
+:not(h1, h2, h3, h4, h5, h6) > .internal-link, .markdown-source-view.is-live-preview span.cm-hmd-internal-link:not(.cm-header){
+    display: inline-block;
+    border: 1px solid var(--text-a);
+    border-radius: var(--custom-link-radius);
+    padding: 0px 4px;
+    font-size: .95em;
+    vertical-align: sub;
+    vertical-align: text-top;
+    line-height: 1.5;
+    /* line-height: 1.2; */
+    height: 21px;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: var(--custom-link-background-color);
+    box-shadow: var(--custom-link-box-shadow);
+}
+
+/* NOTE allow internal links inside tables to span their full width */
+table :not(h1, h2, h3, h4, h5, h6) > .internal-link, .markdown-source-view.is-live-preview table span.cm-hmd-internal-link:not(.cm-header){
+    max-width: 100%;
+}

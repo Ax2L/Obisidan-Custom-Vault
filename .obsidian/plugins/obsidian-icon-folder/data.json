@@ -1,0 +1,79 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#737782",
+    "recentlyUsedIcons": [
+      "RaBridge",
+      "TiLineDotted",
+      "RiTwitterXLine",
+      "🧷",
+      "🌎"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "icon": "📇",
+        "rule": "SHM/Index.canvas\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "😁",
+        "rule": "AI/QuickStarter/StableDiff.lnk\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "BoBxsFileDoc",
+        "rule": "AI/Chat&Talk/TextGenerator/README.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      },
+      {
+        "icon": "BoBxsThermometer",
+        "rule": "AI/Chat&Talk/TextGenerator\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 3,
+        "useFilePath": true
+      },
+      {
+        "icon": "FabAngular",
+        "rule": "Projects/ProtoJavis/Plan/🧠 Brainstorm Checklist.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 4,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 5
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": true,
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "Code/snippets": "FabCodepen",
+  "Docs/Hardware": "FasServer",
+  "Prompts": "TiPrompt",
+  "Notes.canvas": "TiNotes",
+  "xGPT.One": "BoBxsRocket",
+  "Untitled/Docs": "IbDocumentText",
+  "Untitled/Docs/Dashy": "TiMathXDivide2",
+  "Untitled/Docs/Obsidian": "SiObsidian",
+  "Untitled/Code": "TiCode",
+  "Untitled/Code/GitHub": "FabGithub",
+  "Untitled/Assests": "FasIcons",
+  "Workspace/Main Bridge.canvas": "RaBridge",
+  "SAP/tmp/Index.canvas": "📇"
+}

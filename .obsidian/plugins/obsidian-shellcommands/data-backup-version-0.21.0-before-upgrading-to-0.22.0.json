@@ -1,0 +1,452 @@
+{
+  "settings_version": "0.21.0",
+  "debug": false,
+  "obsidian_command_palette_prefix": "Execute: ",
+  "preview_variables_in_command_palette": true,
+  "show_autocomplete_menu": true,
+  "working_directory": "",
+  "default_shells": {},
+  "environment_variable_path_augmentations": {},
+  "show_installation_warnings": true,
+  "error_message_duration": 20,
+  "notification_message_duration": 10,
+  "execution_notification_mode": "disabled",
+  "output_channel_clipboard_also_outputs_to_notification": true,
+  "output_channel_notification_decorates_output": true,
+  "enable_events": true,
+  "approve_modals_by_pressing_enter_key": true,
+  "command_palette": {
+    "re_execute_last_shell_command": {
+      "enabled": true,
+      "prefix": "Re-execute: "
+    }
+  },
+  "max_visible_lines_in_shell_command_fields": false,
+  "shell_commands": [
+    {
+      "id": "ui1932t5pd",
+      "platform_specific_commands": {
+        "default": "/Users/I543745/Ax2Vault/Workspace/Hector/helper/Canvas-Hector.sh"
+      },
+      "shells": {},
+      "alias": "",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "2hxkgl7ab5",
+      "platform_specific_commands": {
+        "default": "cmd /c \"call A:/miniconda3/Scripts/activate.bat A:/miniconda3/envs/autoawq && python A:\\AI\\Ax2Vault\\Workspace\\ExecuteExternLLMScript\\run_app_from_canvas.py {{clipboard}}\"",
+        "linux": "./run.sh python script.py",
+        "darwin": "./run.sh python script.py"
+      },
+      "shells": {},
+      "alias": "AIxCanvas",
+      "icon": "activity",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": " {{clipboard}}"
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "realtime",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": false,
+          "prompt_id": ""
+        }
+      ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "8qujrrvo23",
+      "platform_specific_commands": {
+        "default": "cmd /c \"call A:/miniconda3/Scripts/activate.bat A:/miniconda3/envs/autoawq && python A:\\AI\\Ax2Vault\\Workspace\\ExecuteExternLLMScript\\prepare_and_run_app.py --model {{_LLM_MODEL}}  --log-destination {{_OUTPUT}}  --task-key {{_TASK_KEY}}  --data-file {{_DATA}} "
+      },
+      "shells": {},
+      "alias": "LLMxAWQ",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "ignore",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "81kxg18c1j",
+      "platform_specific_commands": {
+        "default": "echo {{_RUNSCRIPT}}  --model {{_LOADMODEL}}  --log-destination {{_OUTPUT}}  --task-key {{_TASK_KEY}}  --data-file {{DATA}}\""
+      },
+      "shells": {},
+      "alias": "LLMwithVariables",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [
+        {
+          "type": "prompt",
+          "enabled": true,
+          "prompt_id": "ipgkl92ljx"
+        }
+      ],
+      "variable_default_values": {}
+    },
+    {
+      "id": "y70letg3cv",
+      "platform_specific_commands": {
+        "default": "echo {{RUNSCRIPT}} --model {{LOADMODEL}} --log-destination {{OUTPUT}} --task-key {{TASK_KEY}} --data-file {{DATA}}\""
+      },
+      "shells": {},
+      "alias": "",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "input_contents": {
+        "stdin": null
+      },
+      "output_handlers": {
+        "stdout": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        },
+        "stderr": {
+          "handler": "notification",
+          "convert_ansi_code": true
+        }
+      },
+      "output_wrappers": {
+        "stdout": null,
+        "stderr": null
+      },
+      "output_channel_order": "stdout-first",
+      "output_handling_mode": "buffered",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    }
+  ],
+  "prompts": [
+    {
+      "id": "ipgkl92ljx",
+      "title": "runAI-AWQ",
+      "description": "Execute the python Script to run a LLM with data and prompt, to store the output as text.",
+      "preview_shell_command": true,
+      "fields": [
+        {
+          "type": "single-line-text",
+          "label": "Script FIle",
+          "description": "enter here the Script which should be executed after conda envirement activation.",
+          "default_value": "python A:\\AI\\Ax2Vault\\Workspace\\ExecuteExternLLMScript\\prepare_and_run_app.py",
+          "target_variable_id": "plw2f4w1e9",
+          "required": true
+        },
+        {
+          "type": "single-choice",
+          "label": "Selected Model",
+          "description": "enter here the name of the LLM that should be loaded.",
+          "default_value": "TheBloke_TenyxChat-7B-v1-AWQ",
+          "target_variable_id": "9zsdoqybfj",
+          "required": true,
+          "choices": [
+            "CapybaraHermes-2.5-Mistral-7B-AWQ",
+            "TheBloke_Hermes-LLongMA-2-7B-8K-AWQ",
+            "TheBloke_llama2_7b_chat_uncensored-AWQ",
+            "TheBloke_NeuralBeagle14-7B-AWQ",
+            "TheBloke_Noromaid-13B-v0.3-AWQ",
+            "TheBloke_TenyxChat-7B-v1-AWQ",
+            "TheBloke_UNA-TheBeagle-7B-v1-AWQ",
+            "TheBloke_Unholy-v2-13B-AWQ",
+            "TheBloke_Velara-11B-V2-AWQ"
+          ]
+        },
+        {
+          "type": "single-line-text",
+          "label": "Outputfile",
+          "description": "absolute path to create/update File.",
+          "default_value": "./logs/test.txt",
+          "target_variable_id": "5ls6cn9r81",
+          "required": true
+        },
+        {
+          "type": "single-choice",
+          "label": "Task Key",
+          "description": "Enter the Key of the Task that you want to be used by the AI as System Messange. (Workspace\\ExecuteExternLLMScript\\configs\\prompts.json)",
+          "default_value": "",
+          "target_variable_id": "n1wmfbbple",
+          "required": true,
+          "choices": [
+            "letsGetDirty",
+            "yxc",
+            "asd",
+            "enhanceTextClarity",
+            "createEngagingTitles",
+            "improveTextCoherence",
+            "optimizeKeywordUsage",
+            "enhanceTextReadability",
+            "generateSummary",
+            "identifyKeyPoints",
+            "adaptToneForAudience",
+            "createCallToAction",
+            "enhanceTextPersuasiveness",
+            "improveTextStructure",
+            "optimizeForReadabilityScores",
+            "enhanceTextConsistency",
+            "generateTextVariations",
+            "improveTextEngagement",
+            "enhanceTextOriginality",
+            "optimizeTextLength",
+            "improveTextFormatting",
+            "generateTextForSpecificSections",
+            "enhanceTextVisuals",
+            "refactorCode",
+            "addErrorHandling",
+            "completeMissingCode",
+            "codeImprovementRecommendations",
+            "optimizePerformance",
+            "enhanceSecurityMeasures",
+            "updateDependencies",
+            "improveCodeStructure",
+            "increaseTestCoverage",
+            "implementDesignPatterns",
+            "reduceCodeComplexity",
+            "ensureCodeConsistency",
+            "enhanceUsability",
+            "improveDocumentation",
+            "addressTechnicalDebt",
+            "optimizeDatabaseQueries",
+            "enhanceAccessibility",
+            "implementCI_CD",
+            "improveErrorMessages",
+            "ensureCompatibility",
+            "createAPIDocumentation",
+            "generateUMLDiagrams",
+            "developMindMaps",
+            "writeProjectSummary",
+            "prepareQuickStartGuide",
+            "compileFAQSection",
+            "createDataFlowDiagrams",
+            "writeCodeComments",
+            "developUserManuals",
+            "generateERDiagrams",
+            "createInstallationGuides",
+            "prepareReleaseNotes",
+            "writeTechnicalSpecifications",
+            "developTrainingMaterials",
+            "createSystemArchitectureDocuments",
+            "compileCodeSnippetsLibrary",
+            "generateTestCasesDocumentation",
+            "writeBestPracticesGuide",
+            "createGlossaryOfTerms",
+            "developDeploymentGuidelines",
+            "integrateDocumentationSections",
+            "mergeAPIGuidesAndReferences",
+            "consolidateUMLDiagrams",
+            "assembleProjectOverviews",
+            "compileQuickStartAndTutorials",
+            "unifyFAQAndTroubleshootingGuides",
+            "integrateDataFlowAndERDiagrams",
+            "mergeUserManualsWithQuickReferences",
+            "consolidateInstallationAndDeploymentGuides",
+            "combineReleaseNotesAndChangeLogs",
+            "integrateTechnicalSpecificationsWithSystemDesign",
+            "bundleTrainingMaterialsAndVideos",
+            "unifySystemArchitectureAndComponentDiagrams",
+            "mergeCodeSnippetsWithProgrammingGuides",
+            "consolidateTestDocumentationAndReports",
+            "integrateBestPracticesWithCodeExamples",
+            "combineGlossaryWithAcronymsList",
+            "assembleDeploymentGuidelinesWithMaintenanceTips",
+            "mergeSecurityPoliciesWithComplianceGuidelines",
+            "integrateAllDocumentationIntoASingleKnowledgeBase"
+          ]
+        },
+        {
+          "type": "single-line-text",
+          "label": "Data to process",
+          "description": "",
+          "default_value": "./Readme.md",
+          "target_variable_id": "6f5u5tev3z",
+          "required": true
+        }
+      ],
+      "execute_button_text": "Execute"
+    }
+  ],
+  "builtin_variables": {
+    "{{caret_position}}": {
+      "default_value": null
+    }
+  },
+  "custom_variables": [
+    {
+      "id": "plw2f4w1e9",
+      "name": "RUNSCRIPT",
+      "description": "Scriptfile to exectute",
+      "default_value": null
+    },
+    {
+      "id": "9zsdoqybfj",
+      "name": "LLM_MODEL",
+      "description": "selected LLM Model to start",
+      "default_value": {
+        "type": "value",
+        "value": "TheBloke_TenyxChat-7B-v1-AWQ"
+      }
+    },
+    {
+      "id": "5ls6cn9r81",
+      "name": "OUTPUT",
+      "description": "",
+      "default_value": {
+        "type": "value",
+        "value": "Newgirl.md"
+      }
+    },
+    {
+      "id": "n1wmfbbple",
+      "name": "TASK_KEY",
+      "description": "",
+      "default_value": {
+        "type": "value",
+        "value": "letsGetDirty"
+      }
+    },
+    {
+      "id": "6f5u5tev3z",
+      "name": "DATA",
+      "description": "",
+      "default_value": {
+        "type": "value",
+        "value": "Workspace/ExecuteExternLLMScript/Girl.md"
+      }
+    }
+  ],
+  "custom_shells": [
+    {
+      "id": "def2dmt9n1",
+      "name": "",
+      "description": "",
+      "binary_path": "",
+      "shell_arguments": [
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "win32",
+      "host_platform_configurations": {
+        "win32": {
+          "quote_shell_arguments": true
+        }
+      },
+      "shell_platform": null,
+      "escaper": "PowerShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
+    },
+    {
+      "id": "w3cz4nzgo8",
+      "name": "",
+      "description": "",
+      "binary_path": "",
+      "shell_arguments": [
+        "-c",
+        "{{!shell_command_content}}"
+      ],
+      "host_platform": "win32",
+      "host_platform_configurations": {
+        "win32": {
+          "quote_shell_arguments": true
+        }
+      },
+      "shell_platform": null,
+      "escaper": "PowerShell",
+      "path_translator": null,
+      "shell_command_wrapper": null,
+      "shell_command_test": null
+    }
+  ],
+  "output_wrappers": []
+}

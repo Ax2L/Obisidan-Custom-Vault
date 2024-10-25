@@ -1,0 +1,14 @@
+{
+  "serverAddress": "192.168.10.112",
+  "llmModel": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
+  "stream": true,
+  "customPrompt": "create a todo list from the following text:",
+  "outputMode": "replace",
+  "personas": "default",
+  "maxConvHistory": 0,
+  "responseFormatting": false,
+  "responseFormatPrepend": "``` LLM Helper - generated response \n\n",
+  "responseFormatAppend": "\n\n```",
+  "lastVersion": "1.1.5",
+  "serverPort": "11434"
+}

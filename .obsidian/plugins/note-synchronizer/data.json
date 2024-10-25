@@ -1,0 +1,11 @@
+{
+  "version": "0.1.5",
+  "settings": {
+    "render": true,
+    "linkify": true,
+    "headingLevel": 1,
+    "highlightAsCloze": false
+  },
+  "noteState": {},
+  "noteTypeState": {}
+}

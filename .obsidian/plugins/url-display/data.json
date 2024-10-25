@@ -1,0 +1,13 @@
+{
+  "deduplicateUrls": false,
+  "ignoreFileProperty": true,
+  "useAlias": true,
+  "showFavicon": false,
+  "showIndicatorIcon": true,
+  "hoverLinkPreview": true,
+  "copyFormat": "inlineLink",
+  "cacheMode": "diskCache",
+  "noticeMode": "none",
+  "lockPath": "Code/helper/modelsSorter/3.0/Canvas.canvas",
+  "lockUrl": null
+}
