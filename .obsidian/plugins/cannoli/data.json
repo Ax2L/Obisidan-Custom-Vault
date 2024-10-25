@@ -20,7 +20,7 @@
   "groqModel": "llama3-70b-8192",
   "groqAPIKey": "",
   "groqTemperature": 1,
-  "openaiAPIKey": "sk-proj-oLPPTnkpkqB7S2quWILQT3BlbkFJxMIMlZxPEjS3hmSsi4MV",
+  "openaiAPIKey": "",
   "openaiBaseURL": "",
   "requestThreshold": 20,
   "defaultModel": "gpt-3.5-turbo",
@@ -43,5 +43,7 @@
   "bakeIndent": "2",
   "seenVersion2Modal": true,
   "secrets": [],
+  "enableVision": true,
+  "onlyRunCannoliGroups": false,
   "costThreshold": 0.5
 }

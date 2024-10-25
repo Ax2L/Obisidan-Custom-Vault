@@ -12,18 +12,11 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "QuickStart.canvas",
-                "viewState": {
-                  "x": 11565.304128435804,
-                  "y": 13229.352676689761,
-                  "zoom": -1.2691080729166666
-                }
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "QuickStart"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -34,8 +27,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2024-10-22 11.51.26.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-22 11.51.26.excalidraw"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -43,35 +36,21 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SAP/SHM/hwmon/docs/obsidian/Handover SHM - CC.canvas",
-                "viewState": {
-                  "x": 12385.233507500016,
-                  "y": -4166.09346694073,
-                  "zoom": -1.6133709350725014
-                }
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
-              "icon": "lucide-layout-dashboard",
-              "title": "Handover SHM - CC"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "909bc42cc033c5e8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SAP/SHM/hwmon/docs/obsidian/subCanvas/syncJenkins.canvas",
-                "viewState": {
-                  "x": -131.30580027571926,
-                  "y": 1040.8676658316149,
-                  "zoom": -0.6096560005124589
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "syncJenkins"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -139,7 +118,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync:Sync with Remote": false,
       "command-palette:Open command palette": true,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": true,
@@ -154,7 +132,9 @@
       "obsidian-file-cleaner:Clean files": false,
       "file-cleaner-redux:Clean files": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "ai_llm:Local LLM Chat": false
     }
   },
   "active": "906d378d37b56692",

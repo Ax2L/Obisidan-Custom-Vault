@@ -1,5 +1,5 @@
 {
-  "serverAddress": "192.168.10.112",
+  "serverAddress": "localhost",
   "llmModel": "TheBloke/Mistral-7B-Instruct-v0.2-GGUF",
   "stream": true,
   "customPrompt": "create a todo list from the following text:",

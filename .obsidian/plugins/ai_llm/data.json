@@ -1,5 +1,5 @@
 {
-  "ollama_endpoint": "http://192.168.10.112:11434/api/generate",
-  "model": "tinyllama",
+  "ollama_endpoint": "http://localhost:11434/api/generate",
+  "model": "llama3.2:latest",
   "botRole": "You are a helpful assistant providing only short answers"
 }
